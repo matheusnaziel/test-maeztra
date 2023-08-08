@@ -1060,7 +1060,7 @@ input[type="radio"]:checked + .color {
 
 .popup-text {
   flex: 1; 
-  padding: 20px;
+  padding: 0 20px 20px 20px;
   box-sizing: border-box;
   text-align: center;
 }
@@ -1172,6 +1172,14 @@ input[type="radio"]:checked + .color {
   .newsletter-wrapper form {
     display: flex;
   }
+  .slider-text {
+    width: 235px;
+    top: 20px;
+    left: 460px;
+  }
+}
+
+@media (max-width: 320px) {
   .slider-text {
     width: 235px;
     top: 20px;
