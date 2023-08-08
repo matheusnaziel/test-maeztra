@@ -1135,7 +1135,8 @@ input[type="radio"]:checked + .color {
     flex-direction: column;
     max-width: 298px;
     width: 90%;
-    margin-top:20px;
+    height: 307px;
+    margin-top:30px;
   }
 
   .popup-image {
@@ -1147,7 +1148,7 @@ input[type="radio"]:checked + .color {
   }
   
   .popup-close-button {
-    top: 210px;
+    top: 230px;
     right: 75px;
   }
 
@@ -1165,7 +1166,7 @@ input[type="radio"]:checked + .color {
 
 @media (max-width: 375px) {
   .popup-close-button {
-    right: 33px;
+    right: 15px;
   }
   .footer-info {
     width: auto;
