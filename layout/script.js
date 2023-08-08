@@ -116,6 +116,12 @@ $(document).ready(function() {
     }
   });
 
+  $(".menu-toggle").click(function() {
+    $(".mobile-menu").toggleClass("menu-open");
+  });
   
+  $('#menuClose').on('click', function() {
+    $('.mobile-menu').removeClass('menu-open');
+  });
 
 });
