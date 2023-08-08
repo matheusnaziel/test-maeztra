@@ -1132,6 +1132,7 @@ input[type="radio"]:checked + .color {
 
 @media (max-width: 768px) {
   .popup-content {
+    position:fixed;
     flex-direction: column;
     max-width: 298px;
     width: 90%;
@@ -1148,7 +1149,7 @@ input[type="radio"]:checked + .color {
   }
   
   .popup-close-button {
-    top: 220px;
+    bottom: 220px;
     right: 75px;
   }
 
