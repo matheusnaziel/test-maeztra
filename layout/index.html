@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Titillium+Web:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+  <title>Projeto Setup</title>
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="site-branding">
+      <h1 class="site-title">
+        <a href="https://maeztra.com/" title="Inicial" rel="home">
+          Maeztra Online				
+        </a>
+      </h1>
+      <p class="site-description">
+        Soluções eficientes para alavancar suas vendas online
+      </p>
+    </div>
+  </header>
+  <div class="topbar">
+    <span>Acompanhe as melhores promoções disponíveis aqui na Maeztra.</span>
+  </div>
+  <div class="mobile-header">
+    <div class="hamburger-icon">
+      <img src="./img/icon-menu.svg" alt="Menu">
+    </div>
+    <div class="logo">
+      <img src="./img/header.png" alt="Logo">
+    </div>
+    <div class="search-icon">
+      <img src="./img/lupa.svg" alt="Search">
+    </div>
+    <div class="cart-icon">
+      <img src="./img/icon-cart.svg" alt="Cart">
+    </div>
+  </div>
+  <div class="header-wrapper">
+    <div class="container">
+      <div class="row">
+        <!-- <div class="header">   -->
+          <div class="col-lg-2 col-md-2">
+            <div class="logo">
+              <img src="./img/header.png" alt="Logo Maeztra">
+            </div>
+          </div>
+          <div class="col-lg-7 col-md-5"><div class="search-bar">
+            <input type="text" placeholder="Buscar">
+            <button>Buscar</button>
+          </div></div>
+          <div class="col-lg-3 col-md-5">
+            <div class="account-icons">
+            <a href="#">
+              <img src="./img/icon-account.svg" alt="Ícone Minha Conta">
+              Minha Conta
+            </a>
+            <a href="#">
+              <img src="./img/icon-wishlist.svg" alt="Ícone Wishlist">
+              Wishlist
+            </a>
+            <a href="#">
+              <span class="account-icons-border">
+                <img src="./img/icon-cart.svg" alt="Ícone Carrinho">
+                Meu Carrinho
+              </span>
+            </a>
+            </div>
+          </div>
+        <!-- </div> -->
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <nav class="menu">
+          <ul>
+            <li><a href="#"><img src="./img/vestido.svg" alt="Ícone Novidades"> Novidades</a></li>
+            <li><a href="#">Vestidos</a></li>
+            <li><a href="#">Roupas</a></li>
+            <li><a href="#">Sapatos</a></li>
+            <li><a href="#">Lingerie</a></li>
+            <li><a href="#">Acessórios</a></li>
+            <li><a href="#">OUTLET</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div class="slider">
+    <!-- Slick Slider -->
+    <div class="slide">
+      <picture>
+        <source media="(max-width: 767px)" srcset="./img/fullbanner-mobile.png">
+        <img src="./img/fullbanner.png" alt="Slide 1">
+      </picture>
+      <div class="container">
+        <div class="slider-text">
+          <h3>Promoções de Outono</h3>
+          <p>Confiras os melhores looks para combinar com você nesse Outono</p>
+          <button>Conferir</button>
+        </div>
+      </div>
+    </div>
+    <div class="slide">
+      <picture>
+        <source media="(max-width: 767px)" srcset="https://via.placeholder.com/360x320">
+        <img src="https://via.placeholder.com/1920x600" alt="Slide 1">
+      </picture>
+    </div>
+    <div class="slide">
+      <picture>
+        <source media="(max-width: 767px)" srcset="https://via.placeholder.com/360x320">
+        <img src="https://via.placeholder.com/1920x600" alt="Slide 1">
+      </picture>
+    </div>
+    <div class="slide">
+      <picture>
+        <source media="(max-width: 767px)" srcset="https://via.placeholder.com/360x320">
+        <img src="https://via.placeholder.com/1920x600" alt="Slide 1">
+      </picture>
+    </div>
+    <div class="slide">
+      <picture>
+        <source media="(max-width: 767px)" srcset="https://via.placeholder.com/360x320">
+        <img src="https://via.placeholder.com/1920x600" alt="Slide 1">
+      </picture>
+    </div>
+  </div>
+  <div class="container">
+    <div class="advantage">
+      <div class="advantage-text">
+        <h2>Por que comprar na Maeztra?</h2>
+      </div>
+      <ul>
+        <li>
+          <div class="list-wrapper">
+            <img src="./img/icon-terra.svg" alt="">
+            <div class="text-container">
+              <p>Produtos Importados</p>
+              <span>Produto de Alta Qualidade</span>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="list-wrapper">
+            <img src="./img/icon-casa.svg" alt="">
+            <div class="text-container">
+              <p>Estoque no Brazil</p>
+              <span>Produtos mais perto de você!</span>  
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="list-wrapper">
+            <img src="./img/icon-troca.svg" alt="">
+            <div class="text-container">
+              <p>Trocas Garantidas</p>
+              <span>Trocas em até 48 horas, veja as regras</span>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="list-wrapper">
+            <img src="./img/icon-etiqueta.svg" alt="">
+            <div class="text-container">
+              <p>Ganhe 5% off</p>
+              <span>Pagando à vista no Cartão</span>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="list-wrapper">
+            <img src="./img/icon-frete.svg" alt="">
+            <div class="text-container">
+              <p>Frete Grátis</p>
+              <span>Em compras acima de R$499,00</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="container">
+    <div class="partners-wrapper">
+      <div class="partners-text">
+        <h2>Marcas Parceiras</h2>
+      </div>
+      <div class="partners">
+        <ul>
+          <li><img src="./img/comma.png" alt=""></li>
+          <li><img src="./img/melissa.png" alt=""></li>
+          <li><img src="./img/forever.png" alt=""> </li>
+          <li><img src="./img/zara.png" alt=""></li>
+          <li><img src="./img/ann.png" alt=""></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="vitrine-wrapper">
+      <div class="vitrine-text">
+        <h2>As Mais Pedidas</h2>
+      </div>
+      <div class="vitrine">
+        <div class="product-list">
+          <div class="product">
+            <img src="./img/saia.png" alt="">
+            <div class="color-selector">
+              <label>
+                <input type="radio" name="color" value="bege">
+                <span class="color bege selected"></span>
+              </label>
+              <label>
+                <input type="radio" name="color" value="rosa">
+                <span class="color rosa"></span>
+              </label>
+              <label>
+                <input type="radio" name="color" value="azul">
+                <span class="color azul"></span>
+              </label>
+              <label>
+                <input type="radio" name="color" value="azul-escuro">
+                <span class="color azul-escuro"></span>
+              </label>
+            </div>
+            <div class="product-text">
+              <h3 class="price">R$ 500,00</h3>
+              <p>Faux Suede Mini Skirt</p>
+              <p class="product-desc">A faux suede mini skirt featuring exposed button-front closures and panel seam construction.</p>
+            </div>
+            <button class="add-to-cart">Adicionar</button>
+          </div>
+          <div class="product">
+            <img src="./img/saia-florida.png" alt="">
+            <div class="color-selector">
+              <label>
+                <input type="radio" name="color" value="preto">
+                <span class="color preto selected"></span>
+              </label>
+              <label>
+                <input type="radio" name="color" value="rosa-escuro">
+                <span class="color rosa-escuro"></span>
+              </label>
+              <label>
+                <input type="radio" name="color" value="cinza">
+                <span class="color cinza"></span>
+              </label>
+              <label>
+                <input type="radio" name="color" value="cinza-claro">
+                <span class="color cinza-claro"></span>
+              </label>
+            </div>
+            <div class="product-text">
+              <h3 class="price">R$ 49,99</h3>
+              <p>Faux Suede Mini Skirt</p>
+              <p class="product-desc">A faux suede mini skirt featuring exposed button-front closures and panel seam construction.</p>
+            </div>
+            <button class="add-to-cart">Adicionar</button>
+          </div>
+          <div class="product">
+            <img src="./img/saia.png" alt="">
+            <div class="color-selector">
+              <label>
+                <input type="radio" name="color" value="bege">
+                <span class="color bege selected"></span>
+              </label>
+              <label>
+                <input type="radio" name="color" value="rosa">
+                <span class="color rosa"></span>
+              </label>
+              <label>
+                <input type="radio" name="color" value="azul">
+                <span class="color azul"></span>
+              </label>
+              <label>
+                <input type="radio" name="color" value="azul-escuro">
+                <span class="color azul-escuro"></span>
+              </label>
+            </div>
+            <div class="product-text">
+              <h3 class="price">R$ 49,99</h3>
+              <p>Faux Suede Mini Skirt</p>
+              <p class="product-desc">A faux suede mini skirt featuring exposed button-front closures and panel seam construction.</p>
+            </div>
+            <button class="add-to-cart">Adicionar</button>
+          </div>
+          <div class="product">
+            <img src="./img/saia-florida.png" alt="">
+            <div class="color-selector">
+              <label>
+                <input type="radio" name="color" value="preto">
+                <span class="color preto selected"></span>
+              </label>
+              <label>
+                <input type="radio" name="color" value="rosa-escuro">
+                <span class="color rosa-escuro"></span>
+              </label>
+              <label>
+                <input type="radio" name="color" value="cinza">
+                <span class="color cinza"></span>
+              </label>
+              <label>
+                <input type="radio" name="color" value="cinza-claro">
+                <span class="color cinza-claro"></span>
+              </label>
+            </div>
+            <div class="product-text">
+              <h3 class="price">R$ 49,99</h3>
+              <p>Faux Suede Mini Skirt</p>
+              <p class="product-desc">A faux suede mini skirt featuring exposed button-front closures and panel seam construction.</p>
+            </div>
+            <button class="add-to-cart">Adicionar</button>
+          </div>
+          <div class="product">
+            <img src="./img/saia.png" alt="">
+            <div class="color-selector">
+              <label>
+                <input type="radio" name="color" value="bege">
+                <span class="color bege selected"></span>
+              </label>
+              <label>
+                <input type="radio" name="color" value="rosa">
+                <span class="color rosa"></span>
+              </label>
+              <label>
+                <input type="radio" name="color" value="azul">
+                <span class="color azul"></span>
+              </label>
+              <label>
+                <input type="radio" name="color" value="azul-escuro">
+                <span class="color azul-escuro"></span>
+              </label>
+            </div>
+            <div class="product-text">
+              <h3 class="price">R$ 49,99</h3>
+              <p>Faux Suede Mini Skirt</p>
+              <p class="product-desc">A faux suede mini skirt featuring exposed button-front closures and panel seam construction.</p>
+            </div>
+            <button class="add-to-cart">Adicionar</button>
+          </div>
+          <div class="product">
+            <img src="./img/saia-florida.png" alt="">
+            <div class="color-selector">
+              <label>
+                <input type="radio" name="color" value="preto">
+                <span class="color preto selected"></span>
+              </label>
+              <label>
+                <input type="radio" name="color" value="rosa-escuro">
+                <span class="color rosa-escuro"></span>
+              </label>
+              <label>
+                <input type="radio" name="color" value="cinza">
+                <span class="color cinza"></span>
+              </label>
+              <label>
+                <input type="radio" name="color" value="cinza-claro">
+                <span class="color cinza-claro"></span>
+              </label>
+            </div>
+            <div class="product-text">
+              <h3 class="price">R$ 49,99</h3>
+              <p>Faux Suede Mini Skirt</p>
+              <p class="product-desc">A faux suede mini skirt featuring exposed button-front closures and panel seam construction.</p>
+            </div>
+            <button class="add-to-cart">Adicionar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="collection">
+      <div class="row">
+        <div class="col-lg-4 col-xs-12">
+          <div class="text-collection">
+            <div class="text-wrapper">
+              <h2>Lorem ipsum</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum mauris posuere fusce proin mattis. Hendrerit cras ut nunc enim dictum. Mattis proin ut quis donec sed eget nulla. Vel mi ut mauris integer. Nibh sagittis in lobortis sed cursus condimentum velit pharetra. Amet luctus ut vulputate scelerisque placerat consequat. Neque arcu mi iaculis id. Vel vitae, pharetra, a nec tristique. Feugiat id tortor eu mauris pulvinar velit massa. Ut ornare augue eget convallis volutpat aliquet. Sed sed pellentesque porttitor phasellus donec condimentum sit sapien.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-8 col-xs-12">
+          <div class="image-collection">
+            <img src="./img/banner-colecao.png" alt="Imagem" class="image">
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <div class="newsletter">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-xs-12">
+          <div class="newsletter-wrapper">
+            <h2>Receba nossa Newsletter</h2>
+            <form class="newsletter-form">
+              <input type="email" placeholder="Digite seu e-mail">
+              <button type="submit">Enviar</button>
+            </form>
+          </div>
+        </div>
+        </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-wrapper">
+        <div class="row">
+          <div class="col-lg-4 col-md-12 col-xs-12">
+            <div class="footer-info">
+              <img src="./img/icon-plus.svg" alt="">
+              <h4 class="informacoes">Informações</h4>
+              <ul>
+                <li><a href="#">Quem Somos</a></li>
+                <li><a href="#">Prazo de Envio</a></li>
+                <li><a href="#">Trocas e Devoluções</a></li>
+                <li><a href="#">Promoções e Cupons</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 col-xs-12">
+            <div class="footer-info">
+              <img src="./img/icon-plus.svg" alt="">
+              <h4>Minha Conta</h4>
+              <ul>
+                <li><a href="#">Meus Pedidos</a></li>
+                <li><a href="#">Minha Conta</a></li>
+                <li><a href="#">Wishlist</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 col-xs-12">
+            <div class="footer-info">
+              <img src="./img/icon-plus.svg" alt="">
+              <h4>Onde nos encontrar</h4>
+              <ul>
+                <li><a href="#">Lojas Físicas</a></li>
+                <li><a href="#">Fale Conosco</a></li>
+                <li><a href="#">Trabalhe Conosco</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="copy-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-12 col-xs-12">
+            <div class="social-links">
+              <a href="#"><img src="./img/facebook.svg" alt="Facebook"></a>
+              <a href="#"><img src="./img/linkedin.svg" alt="Twitter"></a>
+              <a href="#"><img src="./img/instagram.svg" alt="Instagram"></a>
+              <a href="#"><img src="./img/youtube.svg" alt="youtube"></a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 col-xs-12">
+            <div class="payment-methods">
+              <a href="#"><img src="./img/visa.svg" alt="Visa"></a>
+              <a href="#"><img src="./img/master.svg" alt="Mastercard"></a>
+              <a href="#"><img src="./img/visa.svg" alt="PayPal"></a>
+              <a href="#"><img src="./img/master.svg" alt="American Express"></a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 col-xs-12">
+            <div class="powered-by">
+              <a href="#" class="vtex"><img src="./img/vtex.svg" alt=""></a>
+              <a href="#" class="maeztra"><img src="./img/maeztra.svg" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="popup-overlay">
+    <button class="popup-close-button">FECHAR</button>
+    <div class="popup-content">
+      <img src="/img/bg-newsletter.png" alt="Imagem" class="popup-image">
+      <div class="popup-text">
+        <div class="popup-icon">
+          <img src="./img/newsletter-mail-icon.svg" alt="">
+        </div>
+        <span>BEM VINDO À MAEZTRAS</span>
+        <p>Receba em Primeira mão <b>desconto e ofertas exclusivas</b></p>
+        <form class="popup-form">
+          <input type="email" placeholder="Digite seu e-mail">
+          <button type="submit">ENVIAR <img src="./img/send.svg" alt=""></button>
+        </form>
+      </div>
+    </div>
+  </div>
+    
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
