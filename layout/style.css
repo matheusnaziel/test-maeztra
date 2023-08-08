@@ -1015,20 +1015,16 @@ input[type="radio"]:checked + .color {
 
 .popup-close-button {
   position: absolute;
-  top: 215px;
-  right: 532px;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
   color: #fff;
-  font-family: Lato;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 20px;
-  letter-spacing: 0px;
-  text-align: left;
   background: transparent;
   border: none;
   cursor: pointer;
-  z-index: 2;
+  z-index: 1;
 }
+
 .popup-overlay {
   position: fixed;
   top: 0;
@@ -1045,16 +1041,33 @@ input[type="radio"]:checked + .color {
 .popup-content {
   position: relative;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   max-width: 848px;
   width: 90%;
   background-color: #fff;
   overflow: hidden;
+}
+
+.popup-close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  background: transparent;
+  border: none;
+  cursor: pointer;
   z-index: 1;
 }
 
 .popup-image {
-  width: 50%;
-  height: auto; 
+  width: 100%; /* Manter a imagem ocupando toda a largura */
+  max-height: 50vh; /* Define a altura máxima */
   object-fit: cover;
 }
 
@@ -1149,7 +1162,7 @@ input[type="radio"]:checked + .color {
   }
   
   .popup-close-button {
-    top: 245px;
+    top: 250px;
     right: 75px;
   }
 
@@ -1167,7 +1180,7 @@ input[type="radio"]:checked + .color {
 
 @media (max-width: 375px) {
   .popup-close-button {
-    right: 15px;
+    right: 35px;
   }
   .footer-info {
     width: auto;
