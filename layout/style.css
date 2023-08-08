@@ -1052,7 +1052,7 @@ input[type="radio"]:checked + .color {
 
 .popup-close-button {
   position: absolute;
-  top: 200px;
+  top: 280px;
   right: 532px;
   color: #fff;
   font-family: Lato;

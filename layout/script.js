@@ -108,10 +108,7 @@ $(document).ready(function() {
     checkWindowSize();
   });
 
-  // Captura os elementos das colunas do footer
   var footerColumns = $('.footer-info');
-
-  // Adiciona um evento de clique para mostrar/ocultar as colunas no modo mobile
   footerColumns.on('click', function(e) {
     if ($(window).width() <= 1024) {
       e.preventDefault()
