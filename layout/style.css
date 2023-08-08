@@ -1035,20 +1035,6 @@ input[type="radio"]:checked + .color {
   }
 }
 
-@media (max-width: 320px) {
-  .popup-close-button {
-    top: 140px;
-    right: 33px;
-  }
-}
-
-@media (max-width: 425px) {
-  .popup-close-button {
-    top: 100px;
-    right: 57px;
-  }
-}
-
 
 .popup-close-button {
   position: absolute;
@@ -1167,3 +1153,16 @@ input[type="radio"]:checked + .color {
   margin-left: 8px;
  }
 
+ @media (max-width: 320px) {
+  .popup-close-button {
+    top: 140px;
+    right: 33px;
+  }
+}
+
+@media (max-width: 425px) {
+  .popup-close-button {
+    top: 100px;
+    right: 57px;
+  }
+}
