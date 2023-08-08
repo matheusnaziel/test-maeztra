@@ -1149,7 +1149,7 @@ input[type="radio"]:checked + .color {
   }
   
   .popup-close-button {
-    bottom: 240px;
+    top: 245px;
     right: 75px;
   }
 
